@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Fill Up The Form</h1>
+    <label for="na">Enter Your Name:</label>
+    <input type="text" placeholder="Enter your name" id="na" name="nam">
+    <label for="num">Enter ur ph num:</label>
+    <input type="number" placeholder="Enter ph number" id="num">
+    <label for="ag">Enter your Age</label>
+    <input type="num" placeholder="Enter Age" id="ag">
+    <form action="main.java" method="get">
+    <label for="em">Email-ID:</label>
+    <input type="email" placeholder="enter ur email-id" id="em" name="em">
+    <label for="pwd">Password:</label>
+    <input type="password" placeholder="enter password" id="pwd" name="pass"><br>
+    <input type="color" name="clr" id="clr"><br><br>
+    <input type="button" value="click me"><br>
+    <input type="date" name="" id=""><br><br>
+    <input type="datetime-local" name="" id=""><br>
+    <input type="file" name="" id="" accept=".pdf,.dox,.png"><br><br>
+    <input type="month" name="" id=""><input type="week"><br><br>
+    <br>
+    <input type="radio" name="gender" id="m" value="male">
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="f" value="female">
+    <label for="f">female</label>
+    <input type="radio" name="gender" id="o">
+    <label for="o">other</label><br>
+    <input type="checkbox" name="lang" id="en" value="eng">
+    <label for="en">English</label>
+    <input type="checkbox" name="lang" id="tel" value="tel">
+    <label for="tel">Telugu</label>
+    <input type="checkbox" name="lang" id="hin" value="hin">
+    <label for="hin">Hindi</label><br><br>
+    <input type="button" value="submit"><br><br>
+    <label for="br">Choose the Course:</label>
+    <select name="branch" id="br" size="5" multiple>
+        <option value="">Select Course</option>
+        <optgroup label="Engineering">
+            <option value="EEE">EEE</option>
+            <option value="CSE">CSE</option>
+            <option value="CIVIL">CIVIL</option>
+            <option value="ECE">ECE</option>
+            <option value="Mech">Mechanical</option>
+            <option value="AIDS">AI&DS</option>
+        </optgroup>
+        <optgroup label="degree">
+            <option value="BSC">BSC</option>
+            <option value="BCOM">BCOM</option>
+            <option value="BBA">BBA</option>
+        </optgroup><br>
+        <optgroup label="PG">
+            <option value="MCA">MCA</option>
+            <option value="MBA">MBA</option>
+            <option value="MSC">MSC</option>
+        </optgroup>
+    </select>
+    <label for="pln">Choose the Plan:</label>
+    <select name="plan" id="pln" size="8" multiple>
+        <option value="">Choose ur plan</option>
+        <optgroup label="Monthly">
+            <option value="399/-1GB/day">399,1GB/day</option>
+            <option value="499/- 1.5GB/day">499,1.5GB/day</option>
+            <option value="599/- 2GB/day">599,2GB/day</option>
+        </optgroup>
+        <optgroup label="Quarterly">
+            <option value="699/- 10GB/validity">699,10GB/validity</option>
+            <option value="799/- 12GB/validity">799,12GB/validity</option>
+        </optgroup>
+        <optgroup label="HalfYearly">
+            <option value="999/- 1GB/day">999,1GB/day</option>
+            <option value="1216/- 1.5GB/day">1216,1.5GB/day</option>
+            <option value="1499/- 2GB/day">1499,2GB/day</option>
+        </optgroup>
+        <optgroup label="Yearly">
+            <option value="1669/- 24GB/validity">1669,24GB/validity</option>
+            <option value="1799/- 28GB/validity">1799,28GB/validity</option>
+            <option value="2025/- 1GB/day">2025,1GB/day</option>
+            <option value="3500/- 2GB/day">3500,2GB/day</option>
+        </optgroup>
+    </select><br><hr>
+    <input type="hidden" name="type" value="student"><br><br><hr>
+    <label for="srch">Search here</label>
+    <input type="search" name="" id="srch"><br><br>
+    <input type="number" placeholder="enter in digits"><br>
+    <input type="url" placeholder="enter url" id="">
+    <br><br>
+    <textarea name="" id="" cols="50" rows="10" placeholder="text area"></textarea>
+    <button type="submit">
+        send
+    </button>
+    <button type="reset">
+        reset
+    </button>
+    <button type="click me">
+        click here
+    </button>
+</form>
+
+</body>
+</html>
