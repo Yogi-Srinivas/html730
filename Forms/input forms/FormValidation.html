@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <form action="main.java">
+        <input type="text" placeholder="Enter name" name="name" pattern="[A-Za-z0-9] {,3}">
+        <input type="number" placeholder="Mobile Number" id="" pattern="[0-9]{10}">
+        <input type="email" placeholder="Enter Email" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
